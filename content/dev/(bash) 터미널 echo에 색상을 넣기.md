@@ -3,6 +3,7 @@ title: (bash) 터미널 echo에 색상을 넣기
 date: 2023-12-18
 tags:
   - seed
+  - bash
 ---
 
 ## 폰트 색상 적용
@@ -38,10 +39,6 @@ Code:
 3 - background color
 4 - underline the text
 5 - blinking
-
-You can also specify both a foreground and a background color.
-
-Code:
 ```
 
 https://gist.github.com/mauriciopazpp/6a01f015c7598b6eb4ce367cc7d590bc

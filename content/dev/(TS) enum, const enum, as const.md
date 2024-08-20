@@ -19,7 +19,7 @@ enum Direction {
 
 ## enum
 
-enum은 트리쉐이킹 되지 않는다.
+enum은 트리쉐이킹 되지 않는다.   
 js로 트랜스파일링 될때 즉시실행함수가 생성된다.
 
 ```js
@@ -33,7 +33,7 @@ var Direction
 })(Direction || (Direction = {}))
 ```
 
-enum은 위험하다.
+enum은 위험하다.   
 enum은 선언되지 않는 key값의 접근을 허용한다.
 
 ## const enum

@@ -1,6 +1,6 @@
 ---
-title: (TS) enum vs const enum
-date: 2024-02-02
+title: enum, const enum, as const
+date: 2024-08-21
 tags:
   - seed
   - typescript
@@ -17,7 +17,7 @@ enum Direction {
 }
 ```
 
-## enum
+enum
 
 enum은 트리쉐이킹 되지 않는다.   
 js로 트랜스파일링 될때 즉시실행함수가 생성된다.

@@ -1,6 +1,6 @@
 ---
-title: (TS) export =
-date: 2024-01-12
+title: export =
+date: 2024-08-21
 tags:
   - seed
   - typescript

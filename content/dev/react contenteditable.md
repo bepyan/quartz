@@ -21,7 +21,7 @@ const Editable = () => {
     <div 
       contentEditable
       onBlur={onContentBlur}
-      dangerouslySetInnerHTML={{__html: content} 
+      dangerouslySetInnerHTML={{__html: content}}
 	/>
   )
 }

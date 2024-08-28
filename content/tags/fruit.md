@@ -1,4 +1,4 @@
 ---
 title: "Fruit"
-description: "Of course, a knowledge index isn’t much use if it doesn’t inform future thinking and output. Fruits are what I like to call derivative or ’new’ pieces of content. This is new work created from saplings, mostly longer form essays, projects, etc. At this stage, thoughts and ideas have matured enough to be able to share and collaborate."
+description: "씨앗에서 자란 열매이다. 이는 기존의 지식과 아이디어를 바탕으로 만들어진 새로운 컨텐츠를 의미한다."
 ---

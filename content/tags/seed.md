@@ -1,4 +1,4 @@
 ---
 title: "Seed"
-description: "I tend to generally bookmark things for later then revisit them when I have time. These are collections of notes on articles, books, and readings. They are the seeds that form the basis of my ideas and thoughts."
+description: "아이디어의 씨앗이 되는 노트이다. 관심 있는 정보를 수집하고, 시간이 날 때 다시 검토하며, 그 과정에서 노트를 작성한다."
 ---

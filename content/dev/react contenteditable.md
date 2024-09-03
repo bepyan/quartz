@@ -2,9 +2,8 @@
 title: react contenteditable
 date: 2024-08-22
 tags:
-  - seed
+  - fruit
   - react
-  - contenteditable
 ---
 
 React에서 순수하게 `contenteditable`을 사용한다면 아래 같이 코드를 작성할 수 있다.

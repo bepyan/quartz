@@ -4,8 +4,7 @@ date: 2024-09-03
 tags:
   - seed
 ---
-> GenAI / LLM 활용 및 성능 개선
-
+[[240902 Advance AI 교육]]
 
 ## RAG
 
@@ -46,4 +45,16 @@ graph LR
 - 사용자 쿼리에 가장 적합한 정보만을 선별
 
 ### Hallucination Checker
+
+
+## Fine Tuning
+
+Fine Tuning vs RAG
+
+### LoRA
+
+LoRA에서 4비트 트렌스포머를 QLoRA라고 부른다.
+은근히 잘된다..
+
+DoRA, QDoRA
 

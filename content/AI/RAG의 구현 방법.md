@@ -12,7 +12,7 @@ tags:
 3. LLM이 주어진 컨텍스트와 질문을 바탕으로 답변을 생성한다.
 4. 생성된 답변을 사용자에게 반환한다.
 
-`langchain` 에서 유용한 도구를 많이 제공해주기에 이를 잘 활용하면 된다.
+[[LangChain]] 에서 유용한 도구를 많이 제공해주기에 이를 잘 활용하면 된다.
 
 ```ts
 import { ChatPromptTemplate } from "@langchain/core/prompts";

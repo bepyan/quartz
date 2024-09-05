@@ -1,6 +1,7 @@
 ---
 title: 240903 Advance AI 교육
 date: 2024-09-03
+draft: true
 tags:
   - seed
 ---

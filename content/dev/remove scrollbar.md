@@ -1,9 +1,11 @@
 ---
-title: 스크롤바 제거
-date: 2024-09-09
+title: remove scrollbar
+date: 2024-09-10
 tags:
   - seed
 ---
+
+스크롤바를 제거하는 방법에 대해서 기록해보자.
 
 ### radix-ui
 

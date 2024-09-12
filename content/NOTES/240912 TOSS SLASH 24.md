@@ -1,5 +1,5 @@
 ---
-title: 240912 toss slash 24
+title: 240912 TOSS SLASH 24
 date: 2024-09-12
 tags:
   - seed

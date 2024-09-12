@@ -2,9 +2,26 @@
 title: VSCode 설정 세팅
 date: 2024-09-11
 tags:
-  - seed
-  - fe
+  - fruit
+  - dev
 ---
+
+## 개인 설정
+
+```json
+{
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.mouseWheelZoom": true,
+  "explorer.confirmDelete": false,
+  "git.confirmSync": false,
+  "workbench.colorTheme": "poimandres",
+}
+```
+
+[editor.mouseWheelZoom](https://stackoverflow.com/questions/30192884/is-it-possible-to-configure-control-scroll-wheel-to-increase-decrease-zoom-in)
+
+## 프로젝트 설정
 
 ```shell
 touch .vscode/settings.json

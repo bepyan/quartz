@@ -2,7 +2,7 @@
 title: remove scrollbar
 date: 2024-09-10
 tags:
-  - evergeeen
+  - evergreen
   - fe
 ---
 

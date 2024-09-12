@@ -5,7 +5,4 @@ tags: []
 ---
 🌱 obsidian blog made with [@jackyzha0/quartz](https://quartz.jzhao.xyz/).
 
-[[2024 프로젝트 세팅하는 법]]
-[[프롬프트 엔지니어링]]
-
-[[seed]] [[fruit]] [[evergreen]]
+[[seed]] [[fruit]] [[evergreen]] 을 활용해서 노트를 기록하고 있습니다.

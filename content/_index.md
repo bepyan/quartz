@@ -5,4 +5,4 @@ tags: []
 ---
 🌱 obsidian blog made with [@jackyzha0/quartz](https://quartz.jzhao.xyz/).
 
-[[seed]] [[fruit]] [[evergreen]] 을 활용해서 노트를 기록하고 있습니다.
+[[seed]] [[fruit]] [[evergreen]] 태그를 활용해 기록하고 있습니다.

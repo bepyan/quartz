@@ -2,8 +2,8 @@
 title: TOSS SLASH 24
 date: 2024-09-12
 tags:
-  - seed
   - 컨퍼런스
+  - fruit
 ---
 
 ## 타임 테이블

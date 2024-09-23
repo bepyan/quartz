@@ -19,3 +19,9 @@ fetch + merge(또는 rebase) = pull
 ```shell
 git pull --rebase origin main
 ```
+
+이를 기본 설정으로 적용하고 싶다면 아래 명령어를 수행하자.
+
+```shell
+git config --global pull.rebase true
+```

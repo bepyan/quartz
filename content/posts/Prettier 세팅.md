@@ -47,3 +47,5 @@ touch .prettierrc
 [[prettier-plugin-tailwindcss]]
 [[prettier-plugin-svelte]]
 [[prettier-plugin-astro]]
+
+추가로 [[VSCode 설정 세팅]]에서 `formatOnSave` 설정을 진행하자.

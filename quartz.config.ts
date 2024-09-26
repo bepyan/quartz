@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: "plausible",
     },
-    locale: "ko-KR",
+    locale: "en-US",
     baseUrl: "quartz.bepyan.me",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",

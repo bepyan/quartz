@@ -31,26 +31,33 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Writing",
-        limit: 4,
+        limit: 3,
         filter: (f) =>
-          f.slug!.startsWith("posts/") && f.slug! !== "posts/index" && !f.frontmatter?.noindex,
-        linkToMore: "posts/" as SimpleSlug,
+          !f.frontmatter?.noindex &&
+          !!f.frontmatter?.tags?.some((t) => t === "fruit" || t === "evergreen"),
+        linkToMore: "tags/fruit/" as SimpleSlug,
         showTags: false,
       }),
     ),
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Notes",
-        limit: 2,
-        filter: (f) => f.slug!.startsWith("thoughts/"),
-        linkToMore: "thoughts/" as SimpleSlug,
+        limit: 4,
+        filter: (f) => !f.frontmatter?.noindex && !!f.frontmatter?.tags?.some((t) => t === "seed"),
+        linkToMore: "tags/seed/" as SimpleSlug,
         showTags: false,
       }),
     ),
-    Component.DesktopOnly(Component.TableOfContents()),
   ],
   right: [
-    Component.Graph(),
+    Component.Graph({
+      localGraph: {
+        showTags: false,
+      },
+      globalGraph: {
+        showTags: false,
+      },
+    }),
     Component.DesktopOnly(Component.TableOfContents()),
     Component.Backlinks(),
   ],
@@ -64,7 +71,6 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    Component.DesktopOnly(Component.Explorer()),
   ],
   right: [],
 }

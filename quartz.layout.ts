@@ -31,7 +31,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Writing",
-        limit: 3,
+        limit: 1,
         filter: (f) =>
           !f.frontmatter?.noindex &&
           !!f.frontmatter?.tags?.some((t) => t === "fruit" || t === "evergreen"),
@@ -42,7 +42,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(
       Component.RecentNotes({
         title: "Recent Notes",
-        limit: 4,
+        limit: 2,
         filter: (f) => !f.frontmatter?.noindex && !!f.frontmatter?.tags?.some((t) => t === "seed"),
         linkToMore: "tags/seed/" as SimpleSlug,
         showTags: false,

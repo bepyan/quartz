@@ -16,7 +16,7 @@ const config: QuartzConfig = {
     },
     locale: "en-US",
     baseUrl: "quartz.bepyan.me",
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", ".obsidian", "[!_]*"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",

@@ -1,5 +1,5 @@
 ---
-title: Prettier 세팅 with Svelte
+title: prettier-plugin-svelte
 date: 2024-09-11
 tags:
   - seed

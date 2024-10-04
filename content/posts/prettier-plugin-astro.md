@@ -1,5 +1,5 @@
 ---
-title: Prettier 세팅 with Astro
+title: prettier-plugin-astro
 date: 2024-09-11
 tags:
   - seed

@@ -33,6 +33,5 @@ https://todoist.com/ko/inspiration/todoist-setup
 GTD
 https://todoist.com/ko/productivity-methods/getting-things-done
 
-The Pomodoro Technique
-https://todoist.com/ko/productivity-methods/pomodoro-technique
+[[The Pomodoro Technique]]
 

@@ -3,6 +3,7 @@ title: The Pomodoro Technique
 date: 2024-10-06
 tags:
   - seed
+  - 자기개발
 ---
 **뽀모도로**(Pomodoro)는 25분 동안 일에 집중하고 5분 동안 휴식을 취하는 시간 관리 기법이다.
 

@@ -4,8 +4,9 @@ date: 2024-10-02
 tags:
   - seed
 ---
+[[Quartz 4]]를 쓰면서 커스터 마이징한 것을 정리해보았다.
 
-`quartz.config.ts`
+## `quartz.config.ts`
 
 공백(` `) 3개 없이 바로 줄바꿈을 적용
 ```ts
@@ -22,8 +23,9 @@ root에 작성된 글은 항시 draft로 인식
 ignorePatterns: [..., "[!_]*"],
 ```
 
-`quartz.layout.ts`
+## `quartz.layout.ts`
 
+좌측 사이드바 레이아웃 커스텀화
 ```ts
 export const defaultContentPageLayout: PageLayout = {
   left: [
@@ -52,8 +54,9 @@ export const defaultContentPageLayout: PageLayout = {
 }
 ```
 
-`custom.scss`
+## `custom.scss`
 
+좌측 사이드바 레이아웃 커스텀화
 ```scss
 .left {
   display: grid !important;
@@ -97,7 +100,10 @@ export const defaultContentPageLayout: PageLayout = {
     display: flex !important;
   }
 }
+```
 
+구분선 커스텀화
+```css
 hr {
   overflow: visible;
   padding: 0;
@@ -115,5 +121,27 @@ hr {
     padding: 0.5em 1em;
     color: var(--gray);
   }
+}
+```
+
+여백 추가
+```css
+article {
+  h2 {
+    margin-top: 5rem;
+  }
+
+  h3 {
+    margin-top: 3.5rem;
+  }
+}
+```
+
+코드 블럭 스크롤바 숨기기
+```css
+pre > code {
+  box-sizing: border-box;
+  min-height: 36px;
+  overflow: auto;
 }
 ```

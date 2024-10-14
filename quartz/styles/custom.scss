@@ -73,4 +73,10 @@ article {
   h3 {
     margin-top: 3.5rem;
   }
+
+  pre > code {
+    box-sizing: border-box;
+    min-height: 36px;
+    overflow: auto;
+  }
 }

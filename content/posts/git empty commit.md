@@ -1,3 +1,9 @@
+---
+title: git empty commit
+date: 2024-10-25
+tags:
+  - seed
+---
 
 ## empty commit
 
@@ -6,7 +12,6 @@ CLI를 통해서 빈 커밋 올리는 방법이다.
 ```shell
 git commit --allow-empty -m "empty commit"
 ```
-
 
 ## skip-checks
 
@@ -19,4 +24,4 @@ git commit --allow-empty -m "empty commit
 skip-checks: true"
 ```
 
-https://docs.github.com/en/enterprise-server@3.9/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits
+[공식문서 참고](https://docs.github.com/en/enterprise-server@3.9/pull-requests/collaborating-with-pull-requests/collaborating-on-repositories-with-code-quality-features/about-status-checks#skipping-and-requesting-checks-for-individual-commits)

@@ -7,7 +7,7 @@ tags:
 ---
 
 ```shell
-pnpm add -D prettier prettier-plugin-organize-imports prettier-plugin-tailwindcss
+pnpm add -D prettier prettier-plugin-tailwindcss
 ```
 
 ```shell

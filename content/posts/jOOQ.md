@@ -7,5 +7,3 @@ tags:
 
 jOOQ(Java Object Oriented Querying) is a powerful database querying library that enables developers to write SQL queries in Java using a fluent, type-safe API.
 
-
-

@@ -23,3 +23,6 @@ What import alias would you like configured? ~/*
 ```
 
 이어서 [[2024 프로젝트 세팅하는 법]]
+
+추가 참고
+https://www.reactsquad.io/blog/how-to-set-up-next-js-15-for-production

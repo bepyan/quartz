@@ -1,13 +1,19 @@
+---
+title: Eslint 세팅
+date: 2024-12-24
+tags:
+  - seed
+---
 
-```
+```shell
 pn add -D eslint @eslint/js eslint-plugin-simple-import-sort eslint-plugin-unused-imports typescript-eslint @typescript-eslint/parser
 ```
 
-```
+```shell
 touch eslint.config.js
 ```
 
-```
+```ts
 import pluginJs from "@eslint/js";
 import simpleImportSort from "eslint-plugin-simple-import-sort";
 import unusedImports from "eslint-plugin-unused-imports";
@@ -64,11 +70,9 @@ export default [
 
 ```
 
-
-
 for next.js
 
-```
+```ts
 import { FlatCompat } from '@eslint/eslintrc';
 import pluginJs from '@eslint/js';
 import simpleImportSort from 'eslint-plugin-simple-import-sort';

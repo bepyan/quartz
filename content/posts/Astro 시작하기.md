@@ -1,3 +1,9 @@
+---
+title: Astro 시작하기
+date: 2024-12-24
+tags:
+  - seed
+---
 
 ```shell
 npm install -g pnpm

@@ -1,3 +1,9 @@
+---
+title: VanillaJS 액션을 쉽게 적용하기
+date: 2024-10-16
+tags:
+  - seed
+---
 
 ```js
 // DOM 요소에 액션 이벤트 속성 추가

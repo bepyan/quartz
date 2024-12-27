@@ -35,7 +35,7 @@ export const defaultContentPageLayout: PageLayout = {
         filter: (f) =>
           !f.frontmatter?.noindex &&
           !!f.frontmatter?.tags?.some((t) => t === "fruit" || t === "evergreen"),
-        linkToMore: "tags/fruit/" as SimpleSlug,
+        linkToMore: "tags/fruit" as SimpleSlug,
         showTags: false,
       }),
     ),
@@ -44,7 +44,7 @@ export const defaultContentPageLayout: PageLayout = {
         title: "Recent Notes",
         limit: 2,
         filter: (f) => !f.frontmatter?.noindex && !!f.frontmatter?.tags?.some((t) => t === "seed"),
-        linkToMore: "tags/seed/" as SimpleSlug,
+        linkToMore: "tags/seed" as SimpleSlug,
         showTags: false,
       }),
     ),

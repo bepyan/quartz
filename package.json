@@ -2,7 +2,7 @@
   "name": "@bepyan/quartz",
   "description": "🌱 obsidian blog with @jackyzha0/quartz",
   "private": true,
-  "version": "4.2.4",
+  "version": "4.4.0",
   "type": "module",
   "author": "bepyan <bepyan@naver.com>",
   "license": "MIT",

@@ -6,7 +6,17 @@ import { SimpleSlug } from "./quartz/util/path"
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
   header: [],
-  afterBody: [],
+  afterBody: [
+    Component.MobileOnly(
+      Component.RecentNotes({
+        title: "Recent Posts",
+        limit: 5,
+        filter: (f) => !f.frontmatter?.noindex,
+        linkToMore: "posts" as SimpleSlug,
+        showTags: false,
+      }),
+    ),
+  ],
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/bepyan/quartz",
@@ -30,21 +40,10 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Darkmode(),
     Component.DesktopOnly(
       Component.RecentNotes({
-        title: "Recent Writing",
-        limit: 1,
-        filter: (f) =>
-          !f.frontmatter?.noindex &&
-          !!f.frontmatter?.tags?.some((t) => t === "fruit" || t === "evergreen"),
-        linkToMore: "tags/fruit" as SimpleSlug,
-        showTags: false,
-      }),
-    ),
-    Component.DesktopOnly(
-      Component.RecentNotes({
-        title: "Recent Notes",
-        limit: 2,
-        filter: (f) => !f.frontmatter?.noindex && !!f.frontmatter?.tags?.some((t) => t === "seed"),
-        linkToMore: "tags/seed" as SimpleSlug,
+        title: "Recent Posts",
+        limit: 5,
+        filter: (f) => !f.frontmatter?.noindex,
+        linkToMore: "posts" as SimpleSlug,
         showTags: false,
       }),
     ),

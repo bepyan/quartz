@@ -69,9 +69,12 @@ article {
   h2 {
     margin-top: 5rem;
   }
-
   h3 {
     margin-top: 3.5rem;
+  }
+  h2:first-child,
+  h3:first-child {
+    margin-top: 0;
   }
 
   pre > code {

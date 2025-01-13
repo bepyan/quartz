@@ -1,14 +1,9 @@
 ---
-title: 24.12 Q
+title: NextResponse redirect과 next navigation redirect와의 차이
 date: 2024-12-24
 tags:
-  - evergreen
+  - seed
 ---
-
-## 2024 프론트엔드 뉴스
-https://meetup.nhncloud.com/posts/390
-
-## `NextResponse.redirect` 과 `next/navigation`의 `redirect`와 차이는?
 
 action, page에선 `navigation`, api 에서는 `NextResponse.redirect`를 사용해야 한다.
 
@@ -19,6 +14,3 @@ const redirectTo = new URL(request.url);
 redirectTo.pathname = '/';
 return NextResponse.redirect(redirectTo);
 ```
-
-
-## `NextResponse`와 `Response`의 차이는?

@@ -5,7 +5,7 @@ tags:
   - seed
 ---
 
-사이트 간 요청 위조
+**사이트 간 요청 위조**
 Cross-Site Request Forgery
 
 쿠키의 동작 방식을 이용한 공격 방법이다.

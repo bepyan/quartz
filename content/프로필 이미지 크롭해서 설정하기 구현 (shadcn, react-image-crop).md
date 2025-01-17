@@ -1,3 +1,4 @@
+지
 ---
 title: 프로필 이미지 크롭해서 설정하기 구현 (shadcn, react-image-crop)
 date: 2025-01-16

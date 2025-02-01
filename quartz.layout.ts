@@ -6,7 +6,7 @@ const RecentNotes = Component.RecentNotes({
   title: "Recent Posts",
   limit: 5,
   filter: (f) =>
-    ["Seed", "Fruit", "Evergreen"].includes(f.frontmatter?.title ?? "") && !f.frontmatter?.noindex,
+    !["Seed", "Fruit", "Evergreen"].includes(f.frontmatter?.title ?? "") && !f.frontmatter?.noindex,
   linkToMore: "posts" as SimpleSlug,
   showTags: false,
 })

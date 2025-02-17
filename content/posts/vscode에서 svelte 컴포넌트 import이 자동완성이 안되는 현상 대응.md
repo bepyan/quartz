@@ -5,8 +5,7 @@ tags:
   - seed
 ---
 
-
-`tsconfig.json` 설정 문제로 보인다.
+우선 `tsconfig.json` 설정을 보면 좋을 것 같다.
 `include`에 `svelte` 파일이 포함되어 있지 않으면 자동완성을 지원해주지 않는다.
 
 ```json
@@ -21,8 +20,14 @@ tags:
 참고:
 https://docs.astro.build/en/guides/typescript/#tsconfig-templates
 
-
 ## index.svelte 지양
 
 `button/index.svelte` 이 있을 경우, `<Button />`로 import 자동완성을 지원 받지 못한다.
 
+
+## Astro 호환성 이슈
+
+Astro에서 현재 Svelte 5 컴포넌트를 auto-complete import 할 수 없는 버그가 있는 것으로 보인다.
+https://github.com/withastro/language-tools/issues/993
+
+해당 케이스의 경우 일단 대기할 수 밖에 없어보인다.

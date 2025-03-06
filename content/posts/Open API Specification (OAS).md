@@ -69,3 +69,7 @@ https://docs.tosspayments.com/resources/glossary/oas
 
 https://www.speakeasy.com/openapi
 https://www.speakeasy.com/openapi/frameworks/springboot
+
+https://www.udemy.com/course/swagger-tools-openapi/?couponCode=ST10MT30325G1
+https://product.kyobobook.co.kr/detail/S000211655004
+

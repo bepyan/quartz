@@ -14,6 +14,8 @@ Swagger는 REST API를 설계, 구축, 문서화, 사용하기 위한 도구 모
 
 2015년 SmartBear가 인수 후, Linux Foundation에 기부하여 OpenAPI Specification으로 이름 변경되었다.
 
+2017년에 OpenAPI 3.0이 출시되었다.
+
 현재는 대부분의 경우 OpenAPI 3.0+를 사용하지만, 여전히 "Swagger"라는 용어가 도구와 명세를 지칭하는 데 통용되고 있다. Swagger 도구들은 계속해서 발전하며 현대 API 개발 워크플로우의 핵심 부분으로 남아있다.
 
 ## 명세

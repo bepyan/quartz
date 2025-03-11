@@ -62,7 +62,33 @@ export default function Example() {
 
 고도화할 수 있는 방법을 찾아 보자.
 
+## nanostores
+
+```ts
+import { QueryClient, QueryObserver } from '@tanstack/query-core';
+import { atom, onMount } from 'nanostores';
+
+export const queryClient = atom(new QueryClient());
+
+export const posts = atom<object | null>(null);
+
+onMount(posts, () => {
+  const observer = new QueryObserver<object>(queryClient.get(), {
+    queryKey: ['posts'],
+    queryFn: () => fetch(`https://dummyjson.com/posts`).then((res) => res.json()),
+  });
+  const unsubscribe = observer.subscribe(({ data }) => data && posts.set(data));
+
+  return async () => {
+    unsubscribe();
+  };
+});
+```
+
+https://github.com/TanStack/query/discussions/5152#discussioncomment-5399784
+
 To be continue...
+
 
 ## 참고
 

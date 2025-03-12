@@ -87,7 +87,40 @@ onMount(posts, () => {
 
 https://github.com/TanStack/query/discussions/5152#discussioncomment-5399784
 
-To be continue...
+```ts
+import { QueryClient, QueryObserver, type QueryObserverResult } from '@tanstack/query-core';
+import { atom, onMount } from 'nanostores';
+
+export const queryClient = atom(new QueryClient());
+
+export const postsQuery = atom<QueryObserverResult<object> | null>(null);
+onMount(postsQuery, () => {
+  const observer = new QueryObserver<object>(queryClient.get(), {
+    queryKey: ['posts'],
+    queryFn: () => fetch(`https://dummyjson.com/posts`).then((res) => res.json()),
+  });
+
+  return observer.subscribe((query) => {
+    postsQuery.set(query);
+  });
+});
+
+export const postQuery = atom<QueryObserverResult<object> | null>(null);
+let unsubscribePostQuery = () => {};
+
+export function fetchPostQuery(postId: string) {
+  unsubscribePostQuery();
+
+  const observer = new QueryObserver<object>(queryClient.get(), {
+    queryKey: ['posts', postId],
+    queryFn: () => fetch(`https://dummyjson.com/posts/${postId}`).then((res) => res.json()),
+  });
+
+  unsubscribePostQuery = observer.subscribe((query) => {
+    postQuery.set(query);
+  });
+}
+```
 
 
 ## 참고

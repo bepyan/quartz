@@ -192,6 +192,3 @@ PDI (Power Distance Index) 권력 격차지수
 
 Reconfirm Question, 재확인 질문을 해보면 좋다.
 
-
-
-

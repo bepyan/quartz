@@ -1,5 +1,5 @@
 ---
-title: fetch header accept
+title: fetch Accept 헤더
 date: 2025-03-25
 tags:
   - seed
@@ -32,6 +32,7 @@ fetch('https://example.com/api/users', {
 
 JavaScript의 Fetch API가 웹 표준으로 등장(2015년 이후, ES6 시대)하면서 Accept 헤더 사용이 더 쉬워졌다.
 
-## 다양한 헤더
+## 더 알아보면 좋을 것은
 
-### 
+[[fetch Content-Type 헤더]]
+

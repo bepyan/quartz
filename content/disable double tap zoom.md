@@ -5,4 +5,3 @@
   touch-action: manipulation;
 }
 ```
-
